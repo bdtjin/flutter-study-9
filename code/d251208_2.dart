@@ -13,10 +13,21 @@ void main() {
   //   // print('3 * $i = $threecount');
   // }
 
-  for(var gugu = 2; gugu <= 9; gugu++){
-    for(var i = 1; i <= 9; i++){
-      var count = gugu * i;
-      print('$gugu * $i = $count');
-    }
+  for (var j = 2; j <= 9; j++) {
+    mulTable(j);
   }
+
+  mulTable(3);
+  mulTable(7);
+}
+
+/// 특정 단수의 구구단을 출력하는 함수 만들기
+///
+/// [number]: 출력할 단 번호
+void mulTable(int number) {
+  // ===== 함수 시작 ======
+  for (var i = 1; i <= 9; i++) {
+    print('$number * $i = ${number * i}');
+  }
+  // ===== 함수 끝 ======
 }
