@@ -13,7 +13,7 @@ void main() {
 ///
 /// 회문이면 true
 ///
-/// 아니면 false
+/// 아니면 false 
 ///
 /// 반환하는 함수
 bool isPalindrome(String str) {
@@ -27,6 +27,7 @@ bool isPalindrome(String str) {
   //   => 반복문에서 i 번째 글자와 (리스트 길이 - i - 1) 번째 글자 비교
   //   => "level"이라는 문자열의 경우 => 2번 반복
   //   => 한글자씩 담긴 리스트 (길이 5) => 길이 5 정도 필요
+  
   // 공간복잡도: 메모리 공간을 얼마나 차지하는지 (RAM과 관련)
   // 시간복잡도: 얼마나 걸렸는지 (CPU와 관련)
 
@@ -47,3 +48,4 @@ bool isPalindrome(String str) {
 
   // ==== 함수 끝 ====
 }
+
