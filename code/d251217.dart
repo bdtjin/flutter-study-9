@@ -5,6 +5,9 @@ void main() {
 
   printDEF(d: 10, e: "EEE", f: "FFF");
   printDEF(e: "EEE", d: 10, f: "FFF");
+
+  printGHI("123", h: 10, i: "11");
+  printGHI("123", h: 10);
 }
 
 // 섞어서 사용 가능
