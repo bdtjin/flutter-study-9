@@ -27,6 +27,5 @@ void printABC(int a, String b, String c) {
 // required 키워드는 함수 사용 시 반드시 넘겨줘야한다는 키워드!
 // 사용할 때 파라미터 순서 상관 X
 void printDEF({required d, required e, required f}) {
-  //
   print("d: $d e: $e f: $f");
 }
